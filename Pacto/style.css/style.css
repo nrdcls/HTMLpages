@@ -1,0 +1,140 @@
+.divisão_azul{
+    background-color: #6FA8FF;
+    padding: 20px
+}
+.snow {
+    color: white;
+}
+ body {
+        font-family: "Poppins", sans-serif;
+        color: #000000;
+        background-color: #ffffff;
+      }
+      .layout_padding {
+        padding: 100px 0;
+      }
+      
+      .layout_padding2 {
+        padding: 55px 0;
+      }
+      
+      .layout_padding2-top {
+        padding-top: 55px;
+      }
+      
+      .layout_padding2-bottom {
+        padding-bottom: 55px;
+      }
+      
+      .layout_padding-top {
+        padding-top: 100px;
+      }
+      
+      .layout_padding-bottom {
+        padding-bottom: 100px;
+      }     
+.destaque{
+    color: #ffffff;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+  font-size: 70px;
+}
+p{
+    font-size: 24px;
+}
+.header{
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+}
+
+img {
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto; /* Manter proporção */
+    margin-right: 10px; /* Espaçamento entre a imagem e o h1 */
+}
+img{
+    width: 100px
+    height: auto
+    margin-right: 10px
+}
+.image-container img{
+      float: left;
+      margin: 150px;
+      border: 2px solid black;
+}
+.divisão_preta{
+    background-color: #000000;
+    padding: 20px;
+}
+.blue{
+    color: #6FA8FF;
+}
+.center-text{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.left-text{
+    text-align: left;
+    font-family:  "Goudy Old Style";
+    font-size: 24px;
+;
+}
+.image-medicine img{
+    float: left;
+      margin: 50px;
+      border: 1px solid #6FA8FF;
+      width: 200px;
+}
+.star img{
+    float: left;
+      margin: 50px;
+}
+.center{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+.pharmacy{
+    float: center;
+    width: 500px;
+    border: #6FA8FF 1px solid;
+}
+.left-paragraphy{
+    text-align: center;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.font-size{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left-img img{
+    float: left;
+    width: 50px;
+}
+.clients img{
+    float: center;
+    width: 50px;
+}
+
+
+.border{
+    border: #000000 1px solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    
+}
+.image-quote img {
+    display: block; /* Para garantir que a margem automática funcione corretamente */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    width: 15px;
+}
+.quote{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: #6FA8FF;
+    font-weight: bold;
+}
