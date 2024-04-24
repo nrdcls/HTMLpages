@@ -1,57 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> E-commerce </title>
-    <link rel="stylesheet" href="style.css/style.css">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: #D8BFD8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div class="divisão_azul" class= "header">
-        <img src="imagens/logo.png" alt="medicine">
-       <h1>Bem Vindo a Nossa <br> <span class= "destaque">Farmácia Online!</span></h1>
-       <p class="snow">Conheça a nossa farmácia online, a sua solução conveniente para todas as suas necessidades de saúde e bem-estar. </p>
-    </div>
-     <div class="image-container">
-        <img src="imagens/license.png" alt="license">
-        <img src="imagens/fastdelivery.png" alt="fast delivery">
-        <img src="imagens/suporte.png" alt="suporte">
-        
-    </div>  
-    <div class="left-text">
-        <h2>Medicina & Saúde</h2>
-    </div>
-    <div class="image-medicine" >
-        <img src="imagens/medicine1.jpg">
-        <img src="imagens/medicine2.jpg">
-        <img src="imagens/medicine3.jpg">
-        <img src="imagens/medicine4.jpg">
-        <img src="imagens/medicine5.jpg">
-        <img src="imagens/medicine5.jpg">
-        <img src="imagens/medicine5.jpg">
-        <img src="imagens/medicine5.jpg">
-    </div>
-    <div class="left-text">
-        <h2>Vitaminas & Suplementos</h2>
-    </div>
-    <div class="image-medicine">
-        <img src="imagens/medicine6.jpg">
-        <img src="imagens/medicine6.jpg">
-        <img src="imagens/medicine6.jpg">
-        <img src="imagens/medicine6.jpg">
-    </div>
-    <br>
-    <div class="center">
-        <h2>SOBRE NÓS</h2>
-        <img class="pharmacy" src="imagens/pharmacy3.avif">
-        <p class="font-size">Na nossa farmácia online, estamos empenhados em fornecer uma experiência de compra fácil, segura e conveniente para todas as suas necessidades de saúde. <br> Com uma ampla variedade de medicamentos, produtos de cuidados pessoais e de bem-estar disponíveis a apenas alguns cliques de distância, <br> estamos aqui para ajudá-lo a cuidar da sua saúde e da saúde da sua família de forma eficaz e acessível.</p>
-        <h2> O QUE NOSSOS CLIENTES DIZEM?</h2>
-        <img class="clients" src="imagens/client.png">
-        <p class="border">"A experiência com a farmácia online foi excelente!  <br> A navegação no site foi fácil, e encontrei todos os produtos que precisava rapidamente.  <br> O processo de compra foi simples e seguro. <br> Além disso, a entrega foi rápida e os produtos chegaram em perfeito estado. <br> Definitivamente farei mais compras aqui e recomendo a todos os amigos e familiares!"</p>
-        <br>
-    </div>
-    <div class="image-quote" style="text-align: center;">
-        <img src="imagens/quote.png">
-        <p class="quote">Maria Eduarda</p>
+    <div class="form-container">
+        <h1>Faça seu Login!</h1>
+        <form autocomplete="on" action="exibicao.html" method="get">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Sua Senha" required>
+            <button type="submit">Acessar</button>
+        </form>
     </div>
 </body>
 </html>
