@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css"/>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing Page</title>
+</head>
+<main>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-mug-saucer" id="nav_logo">  Cinna</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#testemunhos">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça Aqui
+            </button>
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testemunhos">Avalições</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça Aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape">
+
+            </div>
+            
+            <div id="cta">
+                <h1 class="title">
+                    Desperte seus <span>sentidos</span> com cada gole, onde cada xícara conta uma história de <span>sabor.</span>
+                </h1>
+                <p class="description">
+                    Adentre o nosso refúgio do aroma e do sabor, onde cada xícara de café é uma jornada sensorial. 
+                    Na nossa cafeteria, não servimos apenas café; oferecemos experiências.
+                    O seu café perfeito espera por você aqui.
+                </p>
+            
+                
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio!
+                    </a>
+
+                    <a href="tel:+55 83 91920-1219" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                            
+                        </button>
+                        (83) 91920-1219
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/5583996425002?text=Cinna+Coffee%21">
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+                    <a href="https://www.instagram.com/nrdcls/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                
+            </div>
+            <div id="banner">
+                <img src="img cinna/coffee shop 10.jpg">
+            </div>
+            
+        </section>
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h4 class="section-subtitle">Desperte seu paladar com nossos cafés especiais.</h4>
+            
+            <div id="dishes">
+                <div id="dish">
+                    
+                    <img class= "dish-images" src="img cinna/MACCHIATTOALLATTE.avif">
+                    <h3 class="dish-title">Café Macchiato</h3>
+                    
+                    <div id="description">
+                        <span class="description">Uma deliciosa combinação de espresso encorpado e leite vaporizado.</span>
+                    </div>
+                    <div id="center">
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div id="dish-price">
+                            <h4>R$9,00</h4>
+                            <button id="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <img class= "dish-images" src="img cinna/latte coffee.jpg">
+                    <h3 class="dish-title">Café Latte</h3>
+                    <div class="description">
+                        <span class="description">Uma harmoniosa mistura de espresso encorpado e leite vaporizado.</span>
+                    </div>
+                    <div id="center">
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div id="dish-price">
+                            <h4>R$10,00</h4>
+                            <button id="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <img class= "dish-images" src="img cinna/espresso coffee.jpg">
+                    <h3 class="dish-title">Café Espresso</h3>
+                    <div class="description">
+                        <span class="description">Uma dose concentrada de café preparada com grãos finamente moídos.</span>
+                    </div>
+                    <div id="center">
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div id="dish-price">
+                            <h4>R$7,00</h4>
+                            <button id="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <img class= "dish-images" src="img cinna/americano coffee.png">
+                    <h3 class="dish-title">Café Americano</h3>
+                    <div class="description">
+                        <span class="description">Preparado com um espresso suave e água quente.</span>
+                    </div>
+                    <div id="center">
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div id="dish-price">
+                            <h4>R$10,00</h4>
+                            <button id="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <img  class= "dish-images" src="img cinna/cappuccino coffee.jpg">
+                    <h3 class="dish-title">Café Cappuccino</h3>
+                    <div class="description">
+                    <span class="description">Uma harmoniosa mistura de espresso, leite vaporizado e uma generosa camada de espuma de leite.</span>
+                    </div>
+                    <div id="center">
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div id="dish-price">
+                            <h4>R$12,00</h4>
+                            <button id="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <img class= "dish-images" src="img cinna/duplo coffee.avif">
+                    <h3 class="dish-title">Café Duplo</h3>
+                    <div id="description">
+                        <span class="description">Preparado com duas doses de espresso.</span>
+                    </div>
+                    <div id="center">
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div id="dish-price">
+                            <h4>R$10,00</h4>
+                            <button id="btn-default">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <img  class= "dish-images"src="img cinna/mocha coffee.webp">
+                    <h3 class="dish-title">Café Mocha</h3>
+                    <div id="description">
+                        <span class="description">Uma tentadora combinação de espresso rico, leite vaporizado e uma generosa dose de delicioso chocolate. </span>
+                    </div>
+                    <div id="center">
+                        <div class="dish-rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+                        <div id="dish-price">
+                            <h4>R$12,00</h4>
+                            <button id="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    
+        <section id="testimonials">
+            <img src="img cinna/barista 13.avif" id="testimonial-chef">
+
+            <div id="testimonials-content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós?
+                </h3>
+                
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="img cinna/avatar.png" class="feedback-avatar">
+                    
+                        <div class="feedback-content">
+                            <p>
+                                Manuela
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Visitei o Café Cinna ontem e tive uma experiência maravilhosa! 
+                                O cappuccino estava simplesmente perfeito.
+                                
+                            </p>
+                        </div>
+                           
+                    </div>
+                </div>   
+                    <div id="feedbacks">
+                         <div class="feedback">
+                             <img src="img cinna/avatar.png" class="feedback-avatar">
+                    
+                             <div class="feedback-content">
+                                <p>
+                                    Luciana
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                                <p>
+                                    Um lugar perfeito para um café da manhã tranquilo!
+                                </p>
+                             </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-default">
+                        Ver mais avaliações
+                    </button>
+               </div>
+                
+           
+           
+        </section>
+    </main>
+     
+    <footer>
+        <img src="img cinna/wave.svg">
+
+        <div id="footer-items">
+            <span id="copyright">
+                &copy 2024 Natália Silveira
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://wa.me/5583996425002?text=Cinna+Coffee%21">
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+                <a href="https://www.instagram.com/nrdcls/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+ 
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
